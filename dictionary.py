@@ -1,0 +1,15 @@
+d1={'name':'valli','address':'chennai'}
+print(d1)
+d1['name']='sanjana'
+print(d1)
+d1['college']='ceg'
+print(d1)
+d2=d1.copy()
+print(d2)
+print(d1.get("name"))
+d3=d1.items()
+print(d3)
+d4=d1.keys()
+print(d4)
+d1.update({"office":"isoft"})
+print(d1)
